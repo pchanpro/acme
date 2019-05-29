@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<link href="css/css.css" rel="stylesheet">
+</head>
+<style>
+	input [type=submit]{
+		position: absolute;
+		padding: 12px;
+		width:8%;
+		font-family: arial;
+		font-size=17px;
+		text-shadow: 0 0 1px #000;
+		cursor: pointer;
+		text-align: center;
+		color:#fff;
+		border-right: 0;
+		background:linear-gradient(#00adee, #0078a5);
+		border:1px solid #0076a3;
+	}
+	input [type=submit]:hover{
+		background:linear-gradient(#0095cc, #00678e);
+	}
+	
+	input [type=text]:focus, input[type=submit]:focus{
+		outline:none;
+	}
+	
+</style>
+
+<body>
+	<center><img alt="Logo" src="AcmeDistributionLTD-logo.jpg"></center>
+	
+<div class="topnav">
+	<br><p>Shipping Number Search: </p>
+	<form action="excel.xlsx" target="_blank" method="get">
+	<input type="text" name="search" placeholder="Search..">
+		<input type="submit" value="Search"></form>
+</div>
+	<hr style="border: 4px solid blue;">
+		<text>Items listed are scheduled for delivery to: <address>123 Main Street <br>Any City, CO 12345</address> on <date>April 24, 2019</date></text><br>
+	
+	<h1>Items ready for shipment: </h1>
+	<ul>
+		<li>Item 1</li>
+		<li>Item 2</li>
+		<li>Item 3</li>
+		<li>Item 4</li>
+		<li>Item 5</li>
+	</ul>
+	<center><a href="comments.html">Click here</a> to leave additional comments.</center>
+	<center><a href="sig_form.html">Click here</a> to sign the documents through our e-signature page.</center>
+	
+	
+</body>
+</html>
